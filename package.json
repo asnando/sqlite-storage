@@ -1,0 +1,23 @@
+{
+  "name": "sqlite-storage",
+  "version": "1.0.0",
+  "description": "SQLite connection provider for multi javascript environments",
+  "main": "lib/index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffrm/sqlite-storage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ffrm/sqlite-storage/issues"
+  },
+  "homepage": "https://github.com/ffrm/sqlite-storage#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "sqlite3": "^4.0.8"
+  }
+}
