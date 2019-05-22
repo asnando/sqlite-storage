@@ -4,6 +4,7 @@
   "description": "SQLite connection provider for multi javascript environments",
   "main": "lib/index.js",
   "scripts": {
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,10 @@
   "dependencies": {
     "lodash": "^4.17.11",
     "sqlite3": "^4.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
   }
 }
